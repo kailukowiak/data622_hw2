@@ -68,6 +68,7 @@ print(df.head())
 
 train = df.loc['train']
 test = df.loc['test']
+test = test.drop('Survived', axis=1)
 test.to_pickle('test.pkl')
 
 ## TEsting

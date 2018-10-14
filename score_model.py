@@ -5,3 +5,5 @@ test = pd.read_pickle('test.pkl')
 test = test.values
 
 clf = joblib.load('clf.joblib')
+
+est = clf.predict(test)
