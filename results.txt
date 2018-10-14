@@ -1,0 +1,6 @@
+fileName        date                 description       status    publicScore  privateScore  
+--------------  -------------------  ----------------  --------  -----------  ------------  
+submission.csv  2018-10-14 17:50:48  Test Submission1  pending   None         None          
+submission.csv  2018-10-14 17:46:06  Test Submission1  complete  0.79904      None          
+submission.csv  2018-10-14 17:03:16  Test Submission   complete  0.79904      None          
+submission.csv  2018-10-14 16:54:40  Test Submission   complete  0.00000      None          
