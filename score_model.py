@@ -4,6 +4,8 @@ from sklearn.externals import joblib
 
 
 test_df = pd.read_pickle('test.pkl')
+assert test_df.shape == (418, 20), "Wrong Shape"
+
 test = test_df.values
 
 clf = joblib.load('clf.joblib')
@@ -30,3 +32,5 @@ results = results.decode("utf-8")
 
 with open('results.txt', 'w') as text_file:
     text_file.write(results)
+
+
